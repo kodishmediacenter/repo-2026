@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.aresrepo" name="[COLOR lime]ares[/COLOR][COLOR yellow]repo[/COLOR] [COLORcyan]Repository[/COLOR]" version="1.15" provider-name="[COLOR lime]AR[/COLOR][COLOR yellow]ES[/COLOR]">
+<addon id="repository.aresrepo" name="[COLOR lime]ares[/COLOR][COLOR yellow]repo[/COLOR] [COLORcyan]Repository[/COLOR]" version="1.16" provider-name="[COLOR lime]AR[/COLOR][COLOR yellow]ES[/COLOR]">
   <requires>
     <import addon="xbmc.addon" version="12.0.0"/>  
   </requires>
