@@ -116,4 +116,22 @@
     <icon>icon.png</icon>
     </assets>
  </extension>
+</addon><addon id="plugin.video.studiogiveup" name="Studio Giveup" version="1.0" provider-name="Kodish Team">
+  <requires>
+    <import addon="xbmc.python2" version="3.0.0" />
+    <import addon="plugin.video.youtube" version="5.0.0" />
+  </requires>
+ <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+ </extension>
+ <extension point="xbmc.addon.metadata">
+    <summary lang="en">Studio Giveup</summary>
+    <description lang="en">Addon melhores animações com fandublagem em varios idiomas com api do youtube atualizada</description>
+    <platform>all</platform>
+    <forum />
+    <website />
+    <assets>
+    <icon>icon.jpg</icon>
+    </assets>
+ </extension>
 </addon></addons>
