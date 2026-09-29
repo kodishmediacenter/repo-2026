@@ -99,4 +99,21 @@
     <icon>icon.png</icon>
     </assets>
  </extension>
+</addon><addon id="plugin.video.eosmanaus" name="EOS  Manaus" version="KDS1.0" provider-name="Kodish Team">
+  <requires>
+    <import addon="plugin.video.youtube" version="5.0.0" />
+  </requires>
+ <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+ </extension>
+ <extension point="xbmc.addon.metadata">
+    <summary lang="en">EOS  Manaus</summary>
+    <description lang="en">Canal destinado a centralizar e divulgar os estudos realizados pelo grupo "Estudos de Obras Espíritas Selecionadas" (EOS), realizados em Manaus, com a facilitadora Conceição Freitas. O objetivo inicial do canal era oferecer aos participantes dos estudos presenciais em Manaus, uma forma fácil de acessar os estudos gravados para rever, estudar e relembrar os bons momentos e as lições sublimes encontradas nas obras espíritas. Com o tempo, observamos que o Youtube permitia alcançar à todos aqueles que buscam se instruir com os conhecimentos da Doutrina Espírita para auxiliar na sua caminhada evolutiva, quer seja buscando uma Luz (Jesus) para o seu caminho, quer seja buscando uma Palavra de Consolo (Verdade) diante das dificuldades do dia-a-dia (escola da Vida).</description>
+    <platform>all</platform>
+    <forum />
+    <website />
+    <assets>
+    <icon>icon.png</icon>
+    </assets>
+ </extension>
 </addon></addons>
