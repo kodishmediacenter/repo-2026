@@ -1,0 +1,27 @@
+<?xml version="3.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.aresfast" name="[B][COLOR pink]Ar[/COLOR][COLOR orange]es[/COLOR][/B] [COLOR violet]Fast[/COLOR][/B]" version="3.1.7" provider-name="R.O">  
+<requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.requests"/>
+    <import addon="script.module.simplejson"/>
+	<import addon="script.module.kodi-six" />
+</requires>  
+<extension point="xbmc.python.pluginsource" library="default.py">
+	<provides>video</provides>
+</extension>   
+<extension point="xbmc.addon.metadata">
+	 <summary lang="en">SEJAM BEM VINDOS!! ADDON ARES FAST TODO CONTEÚDO DESSE ADDON FOI EXTRAÍDO DENTRO DO GOOGLE, OU SEJA, ESTÁ VIA DOMÍNIO PÚBLICO. NÃO ME RESPONSABILIZO POR FINS LUCRATIVOS DE TERCEIROS.</summary>
+    <description lang="en">[COLOR orange]Addon Ares é apenas um Agregador de link's  para midia center Kodi, todos os links aqui são achados na internet. Não somos responsáveis pelos arquivos aqui encontrados.Esta versao foi atualizada com mecanismo de pesquisa de filmes [/COLOR]</description>
+    <disclaimer lang="en"></disclaimer>
+	<platform>all</platform>
+	<assets>
+       <icon>icon.gif</icon>
+       <fanart>fanart.gif</fanart>
+<screenshot>resources/screenshots/home.png</screenshot>
+<screenshot>resources/screenshots/movies.png</screenshot>
+<screenshot>resources/screenshots/series.png</screenshot>
+</assets>
+	<news>news
+	</news>
+</extension>
+</addon>
