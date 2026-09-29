@@ -61,4 +61,24 @@
 	<fanart>fanart.png</fanart>
     </assets>
   </extension>
+</addon><addon id="plugin.video.CineAntiqua" name="Cine Antiqua - filmes clássicos" version="3.0" provider-name="Kodish Team">
+  <requires>
+    <import addon="plugin.video.youtube" version="5.0.0" />
+  </requires>
+	
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+	
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Cine Antiqua - filmes classicos</summary>
+    <description lang="en">Canal Antiqua e um canal de Filmes Classicos</description>
+    <platform>all</platform>
+	<icon>icon.png</icon>
+    <forum />
+    <website />
+    <assets>
+    <icon>icon.png</icon>
+    </assets>
+  </extension>
 </addon></addons>
