@@ -24,4 +24,21 @@
 	<news>news
 	</news>
 </extension>
+</addon><addon id="plugin.video.spotniks" name="Spotniks" version="1.0" provider-name="Kodish Team">
+  <requires>
+    <import addon="plugin.video.youtube" version="5.0.0" />
+  </requires>
+ <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+ </extension>
+ <extension point="xbmc.addon.metadata">
+    <summary lang="en">Spotniks</summary>
+    <description lang="en">A velha imprensa dá a notícia. A gente explica o porquê.</description>
+    <platform>all</platform>
+    <forum />
+    <website />
+    <assets>
+    <icon>icon.jpg</icon>
+    </assets>
+ </extension>
 </addon></addons>
